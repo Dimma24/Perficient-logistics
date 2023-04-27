@@ -2,3 +2,13 @@
 	/* letter-spacing: 0.15em; */
 	/* font-weight: 100; */
 }
+
+.pt-50 {
+	padding-top: 150px;
+}
+
+@media (max-width: 576px) {
+	.hero__thumb {
+		padding-top: 60px;
+	}
+}
