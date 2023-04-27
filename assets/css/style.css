@@ -2499,11 +2499,6 @@ p {
    width: 100%;
    border-bottom: 1px solid #4a4f61;
 }
-
-/*----------------------------------------*/
-/*  07. Portfolio CSS
-/*----------------------------------------*/
-
 /*----------------------------------------*/
 /*  09. Testimonials CSS
 /*----------------------------------------*/
@@ -2648,7 +2643,7 @@ p {
 }
 .testimonials__title p {
    padding: 0 380px;
-   color: #ffffff;
+   color: #f5f5f3;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
    .testimonials__title p {
@@ -3073,97 +3068,6 @@ p {
    bottom: 0;
    right: 8%;
 }
-.footer__newsletter .section__title {
-   color: #ffffff;
-}
-.footer__newsletter .section__title span::after {
-   background: #4492fd;
-}
-.footer__subscribe {
-   padding-top: 40px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-   .footer__subscribe {
-      padding-top: 10px;
-   }
-}
-.footer__subscribe-input {
-   position: relative;
-   padding-left: 50px;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-   .footer__subscribe-input {
-      padding-left: 40px;
-   }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px),
-   only screen and (min-width: 768px) and (max-width: 991px),
-   only screen and (min-width: 576px) and (max-width: 767px),
-   (max-width: 575px) {
-   .footer__subscribe-input {
-      padding-left: 0;
-   }
-}
-.footer__subscribe-input input {
-   width: 470px;
-   height: 68px;
-   padding: 0 40px;
-   padding-right: 155px;
-   border-radius: 50px;
-   -webkit-border-radius: 50px;
-   -moz-border-radius: 50px;
-   -ms-border-radius: 50px;
-   -o-border-radius: 50px;
-   border: none;
-   outline: none;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-   .footer__subscribe-input input {
-      width: 370px;
-   }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-   .footer__subscribe-input input {
-      width: 315px;
-      height: 60px;
-      padding: 0 30px;
-      padding-right: 140px;
-   }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-   .footer__subscribe-input input {
-      width: 390px;
-      padding: 0 30px;
-      padding-right: 180px;
-   }
-}
-@media (max-width: 575px) {
-   .footer__subscribe-input input {
-      width: 100%;
-      height: 58px;
-      padding: 0 20px;
-      padding-right: 170px;
-   }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-   .footer__subscribe-input button {
-      right: -25px;
-      width: 128px;
-      height: 60px;
-   }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-   .footer__subscribe-input button {
-      right: -180px;
-   }
-}
-@media (max-width: 575px) {
-   .footer__subscribe-input button {
-      width: 150px;
-      height: 100%;
-   }
-}
 .footer__widget {
    position: relative;
 }
@@ -3322,24 +3226,10 @@ p {
 .footer__copyright p a:hover {
    color: #7432ff;
 }
-
-/*----------------------------------------*/
-/*  14. Maxdi CSS
-/*----------------------------------------*/
-
-/*----------------------------------------*/
-/*  16. Customers CSS
-/*----------------------------------------*/
-
-/*----------------------------------------*/
-/*  17. Pricing CSS
-/*----------------------------------------*/
-
 /*----------------------------------------*/
 /*  18. Page-title CSS
 /*----------------------------------------*/
 .page__title-area {
-   /* background: #7432ff; */
    background: #1d233a;
 }
 .page__title-height {
@@ -3554,7 +3444,7 @@ p {
 /*  19. Team CSS
 /*----------------------------------------*/
 .team__area {
-   background: #fffef2;
+   background: #ffffff;
 }
 .team__shape img {
    position: absolute;
