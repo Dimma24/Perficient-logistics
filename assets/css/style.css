@@ -2928,7 +2928,7 @@ p {
 	content: "";
 	left: 0;
 	top: 0;
-	background: #f2dac0;
+	background: rgb(68 146 253 / 0.3);
 	height: 32px;
 	width: 55%;
 	border-radius: 0 0 32px 0;

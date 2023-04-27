@@ -775,8 +775,18 @@
 									</p>
 								</div>
 								<div class="footer__widget-social">
-									<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-									<a href="#"><i class="fa-brands fa-instagram"></i></a>
+									<a
+										target="_blank"
+										rel="noreferrer noopener"
+										href="https://www.facebook.com/profile.php?id=100084333034781&mibextid=LQQJ4d"
+										><i class="fa-brands fa-facebook-f"></i
+									></a>
+									<a
+										target="_blank"
+										rel="noreferrer noopener"
+										href="https://instagram.com/perficientlogistics?igshid=YmMyMTA2M2Y="
+										><i class="fa-brands fa-instagram"></i
+									></a>
 								</div>
 							</div>
 						</div>
@@ -860,7 +870,7 @@
 					<div class="row">
 						<div class="col-xl-12">
 							<div class="footer__copyright">
-								<p>© 2023 Perficient<a href="https://alimasha.net/">Logistics</a></p>
+								<p>© <span id="copyrightdate"></span> Perficient Logistics</p>
 							</div>
 						</div>
 					</div>
@@ -870,6 +880,10 @@
 		<!-- footer area end -->
 
 		<!-- JS here -->
+		<script>
+			const copyright = document.getElementById("copyrightdate");
+			copyright.innerText = new Date().getFullYear();
+		</script>
 		<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
 		<script src="assets/js/vendor/jquery.waypoints.min.js"></script>
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
