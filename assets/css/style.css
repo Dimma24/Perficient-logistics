@@ -1503,25 +1503,32 @@ p {
 	position: relative;
 	object-fit: cover;
 	width: 631px;
-	height: 409px;
+	height: 559px;
 	border-radius: 150px 20px 20px 20px;
 	-webkit-border-radius: 150px 20px 20px 20px;
 	-moz-border-radius: 150px 20px 20px 20px;
 	-ms-border-radius: 150px 20px 20px 20px;
 	-o-border-radius: 150px 20px 20px 20px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.about__thumb-image img {
-		width: 431px;
-		height: 350px;
+		width: 631px;
+		height: 500px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
 	only screen and (min-width: 576px) and (max-width: 767px),
 	(max-width: 575px) {
 	.about__thumb-image img {
-		width: 600px;
-		height: 370px;
+		width: 630px;
+		height: 550px;
+	}
+}
+
+@media (max-width: 576px) {
+	.about__thumb-image img {
+		height: 409px;
 	}
 }
 .about__thumb-image::before {

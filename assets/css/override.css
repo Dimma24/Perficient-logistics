@@ -75,3 +75,9 @@
 .key__factors-icon i {
 	color: #4492fd;
 }
+
+@media (min-width: 1200px) {
+	.main-menu ul li.contact--sm {
+		display: none;
+	}
+}
