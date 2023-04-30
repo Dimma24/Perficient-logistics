@@ -71,3 +71,7 @@
 .contact-list ul li:nth-child(2) {
 	display: none;
 }
+
+.key__factors-icon i {
+	color: #4492fd;
+}
