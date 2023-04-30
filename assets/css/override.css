@@ -67,3 +67,7 @@
 .side-menu-icon i {
 	color: #fff;
 }
+
+.contact-list ul li:nth-child(2) {
+	display: none;
+}
