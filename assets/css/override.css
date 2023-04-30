@@ -29,3 +29,14 @@
 .footer__widget-social a {
 	margin-right: 10px;
 }
+
+.page__title-shape img.page-title-s-4 {
+	opacity: 0.9;
+}
+.page__title-shape img.page-title-s-5 {
+	opacity: 0.7;
+}
+
+.page__title-shape img.page-title-s-3 {
+	opacity: 0.5;
+}
