@@ -659,19 +659,21 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-xl-12">
+					<div class="col-xl-12">
 							<div class="footer__copyright">
-								<p>© 2023 Perficient<a href="https://alimasha.net/">Logistics</a></p>
+								<p>© <span id="copyrightdate"></span> Perficient Logistics</p>
 							</div>
 						</div>
-					</div>
 				</div>
 			</div>
 		</footer>
 		<!-- footer area end -->
 
 		<!-- JS here -->
+		<script>
+			const copyright = document.getElementById("copyrightdate");
+			copyright.innerText = new Date().getFullYear();
+		</script>
 		<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
 		<script src="assets/js/vendor/jquery.waypoints.min.js"></script>
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
