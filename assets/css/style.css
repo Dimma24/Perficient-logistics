@@ -1628,47 +1628,6 @@ p {
 		padding-right: 20px;
 	}
 }
-.about__counter-bg {
-	position: absolute;
-	right: 16%;
-	bottom: 5%;
-	background: #7432ff;
-	width: 811px;
-	height: 207px;
-	z-index: 3;
-	border-radius: 20px 20px 80px 20px;
-	-webkit-border-radius: 20px 20px 80px 20px;
-	-moz-border-radius: 20px 20px 80px 20px;
-	-ms-border-radius: 20px 20px 80px 20px;
-	-o-border-radius: 20px 20px 80px 20px;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-	.about__counter-bg {
-		width: 781px;
-		height: 177px;
-	}
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.about__counter-bg {
-		width: 750px;
-		height: 150px;
-	}
-}
-@media only screen and (min-width: 768px) and (max-width: 991px),
-	only screen and (min-width: 576px) and (max-width: 767px) {
-	.about__counter-bg {
-		bottom: 45px;
-		left: 0;
-		width: 770px;
-		height: 170px;
-	}
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-	.about__counter-bg {
-		width: 100%;
-		height: 160px;
-	}
-}
 .about__counter-content {
 	padding-left: 100px;
 	padding-top: 50px;
