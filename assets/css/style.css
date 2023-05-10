@@ -370,7 +370,8 @@ p {
 	font-weight: 500;
 	color: #b3b8d5;
 	padding: 15px 45px;
-	background: #4492fd;
+	/* background: #4492fd; */
+	background-color: yellow;
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
